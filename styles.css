@@ -1,0 +1,44 @@
+ body{
+    margin: 20px;
+    background-color: black;
+    perspective: 1000px;
+ }
+ 
+ .avatar{
+     width: 150px;
+    }
+    
+
+    .card{
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;   
+        text-align: center;
+        
+
+        background: #ddebf8;
+        counter: #2b2839 ;
+        border-bottom: 6px solid #d8cefe;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /* box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 0 30px rgba(216, 206, 254, 0.9);
+    transform: rotateX(6deg) rotateY(-6deg) translateY(-5px);
+}
+
+
+
+/* margin: top right bottom left 
+margin: 10px 0 10px 10px 
+margin: 10px auto   (if top,bottom=10px and left and right is auto) */
